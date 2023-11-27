@@ -30,6 +30,15 @@ function MyApp({ Component, pageProps }) {
         </Head>
 
         <Component {...pageProps} />
+              <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
+      <noscript>
+        {/* eslint-disable @next/next/no-img-element */}
+        <img
+          src="https://queue.simpleanalyticscdn.com/noscript.gif"
+          alt=""
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </noscript>
       </>
     </ContextoProvider>
   );
