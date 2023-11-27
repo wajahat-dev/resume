@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+ 
     "start": "next start"
+        "build": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next build",
+
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
@@ -16,6 +18,7 @@
     "@ramonak/react-progress-bar": "^1.0.3",
     "emailjs-com": "^2.6.3",
     "next": "9.5.5",
+    "cross-env": "^7.0.3",
     "react": "16.14.0",
     "react-circular-progressbar": "^2.0.3",
     "react-dom": "16.14.0",
