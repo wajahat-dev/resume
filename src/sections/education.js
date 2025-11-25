@@ -18,26 +18,12 @@ export default function Education() {
                   <FontAwesomeIcon icon={faCalendarAlt} /> 2020 - 2024
                 </span>
               </h5>
-              <h3>Bachelor of Engineering</h3>
-              <h4>Sindh Madressat-ul Islam</h4>
+              <h3>Bachelor of Software Engineering</h3>
+              <h4>Sindh Madressatul Islam University</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Software Engineering</span>
-                </li>
-              </ul>
-            </div>
-            <div className="cardCont">
-              <h5>
-                <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2016-2018
-                </span>
-              </h5>
-              <h3>High School</h3>
-              <h4>Federal Collage Cantt</h4>
-              <ul>
-                <li>
-                  <span className="colorRed">- </span> <span>Science Group</span>
+                  <span>Karachi, Pakistan</span>
                 </li>
               </ul>
             </div>

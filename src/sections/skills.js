@@ -5,31 +5,34 @@ import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 export default function Skills() {
   const mainTechSkills = [
-    { name: "React", progress: "90" },
-    { name: "Nodejs", progress: "80" },
+    { name: "C#", progress: "85" },
+    { name: "TypeScript", progress: "90" },
     { name: "JavaScript", progress: "95" },
-    { name: "HTML, CSS, Bootstrap", progress: "80" },
-    { name: "GraphQL", progress: "50" },
-    { name: "Googling", progress: "90" },
+    { name: "Node.js", progress: "85" },
+    { name: ".NET Core", progress: "85" },
+    { name: "React.js", progress: "90" },
+    { name: "Redux", progress: "85" },
+    { name: "GraphQL", progress: "75" },
+    { name: "RESTful APIs", progress: "90" },
   ];
   const overallCirSkills = [
-    { name: "MERNG", progress: "90" },
-    { name: "DBMS", progress: "75" },
-    { name: "OOP", progress: "85" },
+    { name: "Full-Stack", progress: "90" },
+    { name: "AWS", progress: "80" },
+    { name: "Docker", progress: "75" },
   ];
   const softSkills = [
-    "Analytical",
-    "Responsible",
     "Problem-Solving",
-    "OOP mindset",
+    "Agile Methodology",
+    "Code Reviews",
+    "Team Collaboration",
   ];
   const softwareSkills = [
-    { name: "VS Code", progress: "80" },
-    { name: "Visual Studio", progress: "50" },
-    { name: "SQL server Studio", progress: "75" },
-    { name: "Burp Suite", progress: "75" },
-    { name: "Adobe Photoshop", progress: "60" },
-    { name: "MS Office", progress: "90" },
+    { name: "Git", progress: "90" },
+    { name: "Docker", progress: "75" },
+    { name: "AWS (EC2, S3)", progress: "80" },
+    { name: "Jira", progress: "85" },
+    { name: "Jest & Cypress", progress: "80" },
+    { name: "VS Code", progress: "90" },
   ];
   return (
     <section className="container">

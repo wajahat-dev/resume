@@ -30,6 +30,10 @@ export default function NavBar() {
       label: "skills",
       target: "#skills",
     },
+    {
+      label: "projects",
+      target: "#projects",
+    },
   ];
 
   return (

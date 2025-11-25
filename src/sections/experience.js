@@ -14,53 +14,69 @@ export default function Experience() {
             <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2021 - Present
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 21/02/2024 - Current
                 </span>
               </h5>
-              <h3>React Developer</h3>
-              <h4>Kcompute </h4>
+              <h3>Software Engineer</h3>
+              <h4>Logiciel Services</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>UI Components Development</span>
+                  <span>Developed responsive UIs with React.js, TypeScript, JavaScript</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Binding of UI element to Backend</span>
+                  <span>Designed scalable backend services with .NET APIs</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Responsive to change request</span>
+                  <span>Implemented micro-frontend architecture</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>debugging, fixings</span>
+                  <span>Integrated AWS services (EC2, S3)</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Authored Jest & Cypress tests, reducing regressions by 40%</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Collaborated in Agile teams with Jira and code reviews</span>
                 </li>
               </ul>
             </div>
-            {/* <div className="cardCont">
+            <div className="cardCont">
               <h5>
                 <span>
-                  <FontAwesomeIcon icon={faCalendarAlt} /> 2019
+                  <FontAwesomeIcon icon={faCalendarAlt} /> 15/10/2021 - 20/02/2024
                 </span>
               </h5>
-              <h3>Quality Assurance Assistant</h3>
-              <h4>{' & '}</h4>
+              <h3>Software Engineer</h3>
+              <h4>KCompute</h4>
               <ul>
                 <li>
                   <span className="colorRed">- </span>
-                  <span>Product quality assurance and control</span>
+                  <span>Delivered full-stack solutions for client & server sides</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Supply chain management</span>
+                  <span>Enhanced ReactJS SPAs with REST APIs</span>
                 </li>
                 <li>
                   <span className="colorRed">- </span>{' '}
-                  <span>Value chain analysis</span>
+                  <span>Customized Redux-based components</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Debugged and optimized applications</span>
+                </li>
+                <li>
+                  <span className="colorRed">- </span>{' '}
+                  <span>Used Jira for bug tracking and project timelines</span>
                 </li>
               </ul>
-            </div> */}
+            </div>
           </div> 
         </div>
       </div>

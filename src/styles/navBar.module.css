@@ -1,12 +1,14 @@
 .navBar {
-  background-color: var(--light-gray);
-  -webkit-box-shadow: 0px 0px 5px 0px black;
-  -moz-box-shadow: 0px 0px 5px 0px black;
-  box-shadow: 0px 0px 5px 0px black;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.95), rgba(118, 75, 162, 0.95));
+  backdrop-filter: blur(20px);
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(102, 126, 234, 0.4);
+  -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(102, 126, 234, 0.4);
   position: sticky;
   z-index: 2;
   top: 0;
   left: 0;
+  border-bottom: 1px solid rgba(0, 212, 255, 0.3);
 }
 
 .navBarCont {
@@ -32,14 +34,33 @@
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   opacity: 0.9;
+  position: relative;
+}
+
+.navBarCont > ul > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-3), var(--accent-1));
+  transition: width 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+}
+
+.navBarCont > ul > li > a:hover::after {
+  width: 100%;
 }
 
 @media (hover: hover) {
   .navBarCont > ul > li > a:hover {
-    color: white;
+    color: var(--accent-3);
     opacity: 1;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.8);
+    transform: translateY(-2px);
   }
 }
 .navBarCont > ul > li > a:active {

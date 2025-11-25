@@ -5,7 +5,7 @@ import { useContext } from 'react';
 import { Contexto } from '../appContext';
 
 export default function Banner() {
-  const name = 'Wajahat Ali';
+  const name = 'Wajahat';
   const email = 'aliwajahat021@gmail.com';
   const { setIsOpen } = useContext(Contexto);
 
@@ -25,13 +25,13 @@ export default function Banner() {
           </h2>
           <h1>{name}</h1>
           <h2>
-            MERNG Developer |
+            Software Engineer |
             <span className={styles.brH2}>
               <br />
             </span>{' '}
-            Software Engineer
+            Full-Stack Developer
           </h2>
-          <h3>React / GraphQl / Nodejs / Mongodb</h3>
+          <h3>React.js / TypeScript / .NET Core / AWS / Node.js</h3>
           <h3>
             <a href={`mailto:${email}`}>{email}</a>
           </h3>
@@ -64,7 +64,7 @@ export default function Banner() {
           </div>
         </section>
         <figure className={styles.bannerContRight}>
-          <img alt="Wajahat Ali" src="/images/profilePicture.jpg" />
+          <img alt="Wajahat" src="/images/profilePicture.png" />
         </figure>
       </div>
     </section>

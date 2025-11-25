@@ -16,16 +16,18 @@ export default function AboutMe() {
         <header>
           <h2>about me</h2>
           <h3>
-            Hi! My name is Wajahat Ali,{' '}
+            Hi! My name is Wajahat,{' '}
             <span className="colorRed">Web Developer</span>
           </h3>
         </header>
 
         <p>
-        I am a software engineer, having expertise in web techonologies and cybersecurity. I have good programming experience like, 
-        javascript and its frameworksb for creating frontend and backend in collaboration with react, nodejs. I have good knowledge of DBMS.
-         i use mongoose. all of these technologies make me A MERN stack developer. 
-        In security I have good practice in api security with the help of burpsuite a leading intusdry software. Last I can work in any cloud api.
+        I am a software engineer with expertise in full-stack development, specializing in modern web technologies. 
+        I have extensive experience developing responsive user interfaces with React.js, TypeScript, and JavaScript, 
+        and designing scalable backend services using .NET Core APIs. My work includes implementing micro-frontend 
+        architectures, integrating cloud services like AWS (EC2, S3), and writing comprehensive test suites with Jest 
+        and Cypress. I am proficient in technologies including C#, TypeScript, JavaScript, Node.js, React.js, Redux, 
+        Docker, Git, AWS, RESTful APIs, and GraphQL.
         </p>
         <p>
           I am very passionate and dedicated to my work, i have plenty of
